@@ -1,5 +1,6 @@
 ﻿#pragma warning disable CA1822 // Mark members as static
 
+// https://www.youtube.com/watch?v=yn3S3ClmA_I&ab_channel=Stefan%27sTechLog
 namespace GeneratorDebugConsumer
 {
     public class Program
