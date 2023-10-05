@@ -101,6 +101,8 @@ namespace GeneratorDebugConsumer
         }
     }
 
+    // read: https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md#authoring-a-cache-friendly-generator
+    // it's recommended to use value type instead?!
     internal class GeneratorInfo
     {
         public string ClassName { get; set; }
